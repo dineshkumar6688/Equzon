@@ -1,7 +1,7 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.css'
 import '../Style/footer.css';
-import { Container, Col, Row, Image } from 'reactstrap'
+import { Col, Row } from 'react-bootstrap'
 
 function Footer() {
     return (
