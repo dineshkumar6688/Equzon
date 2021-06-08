@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel'
 import { Row, Col, Card } from 'react-bootstrap'
-import { CardBody } from 'reactstrap';
 
 function Slide() {
 
@@ -15,7 +14,7 @@ function Slide() {
                     <Card style={{ margin: "20px" }}>
                         <img className="img-fluid" src='horse.jpg' />
                     </Card>
-                    <CardBody>
+                    <Card.Body>
                         <Row>
                         <Col md={2}>
                             <img src="calender.jpg" width="40px" />
@@ -26,13 +25,13 @@ function Slide() {
                             <Row>Ut nec vulputate enim.Nulla faucibus convallis dui.Donec arcu enim, scelerisque</Row>
                         </Col>
                         </Row>
-                    </CardBody>
+                    </Card.Body>
                 </Row>
                 <Row>
                     <Card style={{ margin: "20px" }}>
                         <img className="img-fluid" src='horse.jpg' />
                     </Card>
-                    <CardBody>
+                    <Card.Body>
                         <Row>
                         <Col md={2}>
                             <img src="calender.jpg" width="40px" />
@@ -43,13 +42,13 @@ function Slide() {
                             <Row>Ut nec vulputate enim.Nulla faucibus convallis dui.Donec arcu enim, scelerisque</Row>
                         </Col>
                         </Row>
-                    </CardBody>
+                    </Card.Body>
                 </Row>
                 <Row>
                     <Card style={{ margin: "20px" }}>
                         <img className="img-fluid" src='horse.jpg' />
                     </Card>
-                    <CardBody>
+                    <Card.Body>
                         <Row>
                         <Col md={2}>
                             <img src="calender.jpg" width="40px" />
@@ -60,13 +59,13 @@ function Slide() {
                             <Row>Ut nec vulputate enim.Nulla faucibus convallis dui.Donec arcu enim, scelerisque</Row>
                         </Col>
                         </Row>
-                    </CardBody>
+                    </Card.Body>
                 </Row>
                 <Row>
                     <Card style={{ margin: "20px" }}>
                         <img className="img-fluid" src='horse.jpg' />
                     </Card>
-                    <CardBody>
+                    <Card.Body>
                         <Row>
                         <Col md={2}>
                             <img src="calender.jpg" width="40px" />
@@ -77,7 +76,7 @@ function Slide() {
                             <Row>Ut nec vulputate enim.Nulla faucibus convallis dui.Donec arcu enim, scelerisque</Row>
                         </Col>
                         </Row>
-                    </CardBody>
+                    </Card.Body>
                 </Row>
             </Carousel>
         </div>
