@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Card, Row, Col, Badge, Button } from 'react-bootstrap';
 import { Checkmark } from 'react-checkmark'
-import { CardFooter } from 'reactstrap';
-import Footer from './footer';
 import ReactStars from "react-rating-stars-component";
 
 function Featured() {
@@ -25,7 +23,7 @@ function Featured() {
                             <h6 className="desc">Approximately 6 miles away from houston</h6>
                         </div>
                     </Card>
-                    <CardFooter>
+                    <Card.Footer>
                         <div className="d-flex justify-content-between">
                             <div className="d-flex">
                                 <div>
@@ -42,7 +40,7 @@ function Featured() {
                             <i class="fa">&#xf142;</i>
                             </div>
                         </div>
-                    </CardFooter>
+                    </Card.Footer>
 
 
                 </Col>
@@ -55,7 +53,7 @@ function Featured() {
                             <h6 className="desc">Approximately 6 miles away from houston</h6>
                         </div>
                     </Card>
-                    <CardFooter>
+                    <Card.Footer>
                         <div className="d-flex justify-content-between">
                             <div className="d-flex">
                                 <div>
@@ -72,7 +70,7 @@ function Featured() {
                             <i class="fa">&#xf142;</i>
                             </div>
                         </div>
-                    </CardFooter>
+                    </Card.Footer>
 
                 </Col>
                 <Col md={3}>
@@ -84,7 +82,7 @@ function Featured() {
                             <h6 className="desc">Approximately 6 miles away from houston</h6>
                         </div>
                     </Card>
-                    <CardFooter>
+                    <Card.Footer>
                         <div className="d-flex justify-content-between">
                             <div className="d-flex">
                                 <div>
@@ -101,7 +99,7 @@ function Featured() {
                             <i class="fa">&#xf142;</i>
                             </div>
                         </div>
-                    </CardFooter>
+                    </Card.Footer>
 
                 </Col>
                 <Col md={3}>
@@ -113,7 +111,7 @@ function Featured() {
                             <h6 className="desc">Approximately 6 miles away from houston</h6>
                         </div>
                     </Card>
-                    <CardFooter>
+                    <Card.Footer>
                         <div className="d-flex justify-content-between">
                             <div className="d-flex">
                                 <div>
@@ -130,7 +128,7 @@ function Featured() {
                             <i class="fa">&#xf142;</i>
                             </div>
                         </div>
-                    </CardFooter>
+                    </Card.Footer>
                 </Col>
             </Row>
             <br/>
